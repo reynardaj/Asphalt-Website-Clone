@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="script.js"></script>
+    <title>Subscription</title>
+</head>
+<body>
+    <header>
+        <img src="/assets/ashpatl-high-resolution-logo-transparent.png" class="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="esport.html">Esport</a></li>
+            </ul>
+        </nav>
+        <a href="subscription.html"><button class="button">Subscription</button></a>
+    </header>
+    
+    <section class="subscription-hero-container">
+        <img src="/assets/hero-img.jpeg" alt="hero-img">
+        <div class="subscription-form-container">
+            <form action="" class="subscription-form">
+                <h2>Sign Up</h2>
+                <hr>
+                <label for="nameInput">Name</label>
+                <input type="text" class="subscription-form-input-text" id="nameInput">
+                <div class="error-message-container">
+                    <p class="error-message" id="error-message-name"></p>
+                </div>
+                <br>
+                <label for="emailInput">Email</label>
+                <input type="text" class="subscription-form-input-text"id="emailInput" >
+                <div class="error-message-container">
+                    <p class="error-message" id="error-message-email"></p>
+                </div>
+                <br>
+                <label for="dobInput">Date of birth</label>
+                <input type="date" class="subscription-form-input-text" id="dobInput">
+                <div class="error-message-container">
+                    <p class="error-message" id="error-message-dob"></p>
+                </div>
+                <br>
+                <label for="male">Gender</label>
+                <div class="radio-container">
+                    <div>
+                        <input type="radio" id="male" name="gender" >
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="female" name="gender" >
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="error-message-container">
+                    <p class="error-message" id="error-message-gender"></p>
+                </div>
+                <br>
+                <div class="tnc-container">
+                    <input type="checkbox" id="termsCheckbox">
+                    <label for="termsCheckbox">I agree to the Terms & Conditions</label>
+                </div>
+                <div class="error-message-container">
+                    <p class="error-message" id="error-message-terms"></p>
+                </div>
+                <br>
+                <input type="submit" class="submit-btn">
+            </form>
+        </div>
+
+    </section>
+        
+
+    <footer>
+        <div class="footer-content">
+            <img src="/assets/ashpatl-high-resolution-logo-transparent.png" alt="footer-logo" class="logo">
+            <p>© 2024 Ashpatl. All rights reserved.</p>
+            <div class="footer-icons-container">
+                <img class="footer-icons" src="/assets/facebook-icon.svg" alt="facebook-icon">
+                <img class="footer-icons" src="/assets/instagram-icon.svg" alt="instagram-icon">
+                <img class="footer-icons" src="/assets/tiktok-icon.svg" alt="tiktok-icon">
+                <img class="footer-icons" src="/assets/youtube-icon.svg" alt="youtube-icon">
+            </div>
+
+        </div>
+        <div class="footer-content">
+            <h4>Support</h4>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Live Chat</a></li>
+            <li><a href="#">Email Us</a></li>
+        </div>
+        <div class="footer-content">
+            <h4>Legal</h4>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+        </div>
+        <div class="footer-content">
+            <h4>Contact Us</h4>
+            <li><a href="#">Email: support@racemania.com</a></li>
+            <li><a href="#">Phone: +1 (800) 123-4567</a></li>
+        </div>
+    </footer>
+</body>
+</html>

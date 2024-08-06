@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Products</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="/assets/ashpatl-high-resolution-logo-transparent.png" class="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="esport.html">Esport</a></li>
+                </ul>
+            </nav>
+        <a href="subscription.html"><button class="button">Subscription</button></a>
+    </header>
+    <section class="gallery-section"">
+        <div class="gallery-btn-container">
+            <button class="gallery-btn-active" onclick="filterSelection('all')" >Show All</button>
+            <button class="gallery-btn" onclick="filterSelection('s-class')">S Class</button>
+            <button class="gallery-btn" onclick="filterSelection('a-class')">A Class</button>
+            <button class="gallery-btn" onclick="filterSelection('b-class')">B Class</button>
+            <button class="gallery-btn" onclick="filterSelection('c-class')">C Class</button>
+            <button class="gallery-btn" onclick="filterSelection('d-class')">D Class</button>
+        </div>
+        <hr>
+        <div class="gallery-container">
+            <!-- S Class -->
+            <div class="gallery-content" data-category="s-class">
+                <img src="/assets/Gallery/S class/bugatti centodieci no bg.png" alt="bugatti-centodieci">
+                <h1 class="gallery-text">Bugatti Centodieci</h1>
+            </div>  
+            <div class="gallery-content" data-category="s-class">
+                <img src="/assets/Gallery/S class/Lamborghini-Veneno-1-no bg.png" alt="Lamborghini-Veneno">
+                <h1 class="gallery-text">Lamborghini Veneno</h1>
+            </div>  
+            <div class="gallery-content" data-category="s-class">
+                <img src="/assets/Gallery/S class/mclaren senna no bg.png" alt="mclaren-senna">
+                <br>
+                <h1 class="gallery-text">Mclaren Senna</h1>
+            </div>  
+            <div class="gallery-content" data-category="s-class">
+                <img src="/assets/Gallery/S class/Tushek-TS-900-Racer-Pro-no-bg.png" alt="Tushek TS 900 Racer Pro">
+                <h1 class="gallery-text">Tushek TS 900 Racer Pro</h1>
+            </div>  
+            
+            <!-- A Class -->
+            <div class="gallery-content" data-category="a-class"="">
+                <img src="/assets/Gallery/A class/Chevrolet-Corvette-ZR1-removebg-preview.png" alt="Chevrolet-Corvette-ZR1">
+                <h1 class="gallery-text">Chevrolet Corvette ZR1</h1>
+            </div>  
+            <div class="gallery-content" data-category="a-class"="">
+                <img src="/assets/Gallery/A class/Ferrari-LaFerrari-removebg-preview.png" alt="Ferrari-LaFerrari">
+                <h1 class="gallery-text">Ferrari LaFerrari</h1>
+            </div>  
+            <div class="gallery-content" data-category="a-class"="">
+                <img src="/assets/Gallery/A class/Pagani-Zonda-R-removebg-preview (1).png" alt="Pagani-Zonda-R">
+                <h1 class="gallery-text">Pagani Zonda R</h1>
+            </div>  
+            <div class="gallery-content" data-category="a-class"="">
+                <img src="/assets/Gallery/A class/Porsche-918-Spyder-removebg-preview (1).png" alt="Porsche-918-Spyder">
+                <h1 class="gallery-text">Porsche 918 Spyder</h1>
+            </div>  
+
+            <!-- B Class -->
+            <div class="gallery-content" data-category="b-class">
+                <img src="/assets/Gallery/B class/Apollo-N-removebg-preview.png" alt="Apollo-N">
+                <h1 class="gallery-text">Apollo N</h1>
+            </div>  
+            <div class="gallery-content" data-category="b-class">
+                <img src="/assets/Gallery/B class/McLaren-765LT-removebg-preview.png" alt="McLaren-765LT">
+                <h1 class="gallery-text">McLaren 765LT</h1>
+            </div>  
+            <div class="gallery-content" data-category="b-class">
+                <img src="/assets/Gallery/B class/Nissan-R390-GTI-removebg-preview.png" alt="Nissan-R390-GTI">
+                <h1 class="gallery-text">Nissan R390 GTI</h1>
+            </div>  
+            <div class="gallery-content" data-category="b-class">
+                <img src="/assets/Gallery/B class/Sin-R1-550-removebg-preview.png" alt="Sin-R1-550">
+                <h1 class="gallery-text">Sin R1 550</h1>
+            </div>  
+
+            <!-- C Class -->
+            <div class="gallery-content" data-category="c-class">
+                <img src="/assets/Gallery/C class/Asphalt-9-Maserati-MC12-removebg-preview (1).png" alt="Maserati-MC12">
+                <h1 class="gallery-text">Maserati MC12</h1>
+            </div>
+            <div class="gallery-content" data-category="c-class">
+                <img src="/assets/Gallery/C class/Bentley-Mullinger-Bacalar-removebg-preview.png" alt="Bentley-Mullinger-Bacalar">
+                <h1 class="gallery-text">Bentley Mullinger Bacalar</h1>
+            </div>
+            <div class="gallery-content" data-category="c-class">
+                <img src="/assets/Gallery/C class/BMW-M4-GTS-removebg-preview.png" alt="BMW-M4-GTS">
+                <h1 class="gallery-text">BMW M4 GTS</h1>
+            </div>
+            <div class="gallery-content" data-category="c-class">
+                <img src="/assets/Gallery/C class/Renault-R.S.-01-removebg-preview.png" alt="Renault-R.S.-01">
+                <h1 class="gallery-text">Renault R.S. 01</h1>
+            </div>
+
+            <!-- D Class -->
+            <div class="gallery-content" data-category="d-class">
+                <img src="/assets/Gallery/D class/Asphalt-9-KTM-X-Bow-GTX-removebg-preview.png" alt="KTM-X-Bow-GTX">
+                <h1 class="gallery-text">KTM X-Bow GTX</h1>
+            </div>
+            <div class="gallery-content" data-category="d-class">
+                <img src="/assets/Gallery/D class/Asphalt-9-Praga-R1-removebg-preview.png" alt="Praga-R1">
+                <h1 class="gallery-text">Praga R1</h1>
+            </div>
+            <div class="gallery-content" data-category="d-class">
+                <img src="/assets/Gallery/D class/BMW-Z4-LCI-E89-removebg-preview.png" alt="BMW-Z4-LCI-E89">
+                <h1 class="gallery-text">BMW Z4 LCI E89</h1>
+            </div>
+            <div class="gallery-content" data-category="d-class">
+                <img src="/assets/Gallery/D class/Peugeot-SR1-removebg-preview.png" alt="Peugeot-SR1">
+                <h1 class="gallery-text">Peugeot SR1</h1>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <img src="/assets/ashpatl-high-resolution-logo-transparent.png" alt="footer-logo" class="logo">
+            <p>© 2024 Ashpatl. All rights reserved.</p>
+            <div class="footer-icons-container">
+                <img class="footer-icons" src="/assets/facebook-icon.svg" alt="facebook-icon">
+                <img class="footer-icons" src="/assets/instagram-icon.svg" alt="instagram-icon">
+                <img class="footer-icons" src="/assets/tiktok-icon.svg" alt="tiktok-icon">
+                <img class="footer-icons" src="/assets/youtube-icon.svg" alt="youtube-icon">
+            </div>
+
+        </div>
+        <div class="footer-content">
+            <h4>Support</h4>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Live Chat</a></li>
+            <li><a href="#">Email Us</a></li>
+        </div>
+        <div class="footer-content">
+            <h4>Legal</h4>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+        </div>
+        <div class="footer-content">
+            <h4>Contact Us</h4>
+            <li><a href="#">Email: support@racemania.com</a></li>
+            <li><a href="#">Phone: +1 (800) 123-4567</a></li>
+        </div>
+    </footer>
+</body>
+</html>
